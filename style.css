@@ -1,0 +1,143 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: bolder;
+    border-bottom-style: inset;
+}
+
+.container-body {
+    display: grid;
+    margin: 10px 65px;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    
+}
+h2 {
+    color: #cc9933;
+}
+
+img {
+    width: 350px;
+    height: 230px;
+}
+
+.card-body {
+    margin-left: 22px;
+    margin-top: -23px;
+}
+.container-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container-cards {
+    align-items: center;
+}
+
+
+#myBtn {
+        background-color: #cc9933; /* Green */
+        border: none;
+        border-radius: 15px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 135px;
+        height: 33px;
+    }
+
+      
+#more {
+    display: none;
+}
+
+#specials {
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px)  {
+    /*  200px to 767px width devices (cover all width between 200px to 767px // */
+    .container-card {
+        display: inline-grid;
+    }
+    .container {
+        float: initial;
+    }
+    .container-body {
+        margin: initial;
+        margin-left: 18px;
+
+    }
+    img {
+        width: 480px;
+    }
+    .card-body {
+        margin: auto;
+    }
+    h3 {
+        margin: auto;
+    }
+    p {
+        margin-top: auto;
+    }
+    h2 {
+        margin-bottom: auto;
+    }
+    }
+
+    /* Rotating Nav header  */
+
+    .n {
+        transform: rotate(-6deg);
+    }
+
+    .e {
+        transform: rotate(6deg);
+    }
+
+    .a  {
+        transform: rotate(-8deg);
+    }
+    .r {
+        transform: rotate(7deg);
+    }
+    .l {
+        transform: rotate(-8deg);
+    }
+    .y  {
+        transform: rotate(6deg);
+        
+    }
+
+    .h {
+        transform: rotate(6deg);
+    }
+    
+    .e {
+        transform: rotate(-7deg);
+    }
+    .r {
+        transform: rotate(8deg);
+    }
+    .e {
+        transform: rotate(-7deg);
+    }
+    .yend {
+        padding-right: 16px;
+    }
+
+    .yend1 {
+        padding-left: 16px;
+        transform: rotate(6deg);
+    }
